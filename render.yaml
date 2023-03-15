@@ -1,5 +1,19 @@
-type: worker
+type: web
 
-    name: queue
+    name: webdis
 
     env: docker
+
+    repo: https://github.com/ZDARKSHADOWXD/railway-ssh # optional
+
+    region: oregon # optional (defaults to oregon)
+
+    plan: standard # optional (defaults to starter)
+
+    branch: master # optional (defaults to master)
+
+    rootDir: webdis
+
+    dockerCommand: ./1.sh # optional (defaults to Dockerfile command)
+
+    numInstances: 1 #
