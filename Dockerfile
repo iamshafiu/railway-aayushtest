@@ -1,4 +1,4 @@
-FROM debian:11
+FROM debian:10
 ARG DEBIAN_FRONTEND=noninteractive
 ARG USER=root
 USER $USER
