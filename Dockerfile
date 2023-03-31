@@ -9,7 +9,6 @@ ARG ngrokid
 ARG Password
 ENV Password=${Password}
 ENV ngrokid=${ngrokid}
-RUN apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 RUN apt-get install \
     ca-certificates \
     curl \
